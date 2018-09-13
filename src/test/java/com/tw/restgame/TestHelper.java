@@ -14,7 +14,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-public class TestHelper {
+public abstract class TestHelper {
     protected static final int PORT = 8089;
     protected ObjectMapper mapper = new ObjectMapper();
 

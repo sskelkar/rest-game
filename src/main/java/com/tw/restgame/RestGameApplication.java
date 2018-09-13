@@ -16,10 +16,11 @@ public class RestGameApplication {
 		SpringApplication.run(RestGameApplication.class, args);
 		System.out.println("started >>>>>>>>>>>>");
 		HttpCaller caller = new HttpCaller("https://http-hunt.thoughtworks-labs.net", new RestTemplate());
+
 //		new StageOne(caller).decryptMessage();
 //		new StageTwo(caller).findTools();
 //		new StageThree(caller).sortToolUsage();
-		new StageFour(caller).findToolsToCarry();
+//		new StageFour(caller).findToolsToCarry();
 	}
 
 	@Bean

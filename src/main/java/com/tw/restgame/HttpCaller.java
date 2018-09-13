@@ -2,9 +2,6 @@ package com.tw.restgame;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tw.restgame.com.tw.stage.one.Input;
-import com.tw.restgame.com.tw.stage.one.Output;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
